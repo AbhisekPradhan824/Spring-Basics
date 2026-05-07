@@ -8,7 +8,7 @@
                            http://www.springframework.org/schema/context/spring-context.xsd">
        
        <!-- Spring bean configuration by ensbling static factory method bean instantiation-->
-       <bean id="ldt" class="java.util.LocalDateTime" factory-method="now"/>
+       <bean id="ldt" class="java.time.LocalDateTime" factory-method="now"/>
        
        <!-- Enabling component scanning to recognize user defined @Component based class as spring beans-->
        
